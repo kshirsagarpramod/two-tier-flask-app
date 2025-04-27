@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: two-tier-app
+  name: two-tier-Deployment
   labels:
     app: two-tier-app
 spec:
