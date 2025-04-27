@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: two-tier-app
+  name: two-tier-app-Deployment
   labels:
     app: two-tier-app
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: two-tier-app
